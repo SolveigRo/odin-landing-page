@@ -1,0 +1,82 @@
+body, .darkBlueBox, .underHeaderBox {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    align-items: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.darkBlueBox{
+    background-color: #1F2937;
+    width: 100%;
+    align-items: center;
+    height: 425px;
+    padding-top: 20px;
+    gap: 60px;
+}
+
+header, .underHeader {
+    display: flex;
+    width: 80%;
+}
+
+header {
+    justify-content: space-between;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headerLinks {
+    display: flex;
+    gap: 13px;
+}
+
+.underHeader {
+    gap: 80px;
+}
+
+.underHeaderBox {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.headerLinks, 
+.underHeaderBox p  {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+}
+
+.underHeaderBox h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.underHeaderBox button {
+    background-color: #3882F6;
+    color: white;
+    padding: 7px 24px;
+    border-radius: 10%;
+    border: none;
+    font-weight: bold;
+}
+
+.imgHolder img {
+    max-width: 400px;
+    border-radius: 28%;
+}
+
+
+.card img {
+    width: 100px;
+}
