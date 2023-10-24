@@ -7,6 +7,7 @@ body {
     align-items: center;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    gap: 20px;
 }
 
 .darkBlueBox{
@@ -18,9 +19,9 @@ body {
     gap: 60px;
 }
 
-header, .underHeader {
+header, .underHeader, .whiteBox1, .innerGreyBox {
     display: flex;
-    width: 80%;
+    width: 950px;
 }
 
 header {
@@ -76,7 +77,53 @@ header {
     border-radius: 28%;
 }
 
+.whiteBox1 {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.whiteBox1 p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.randomContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+.card {
+    flex: 0 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    text-align: center;
+}
 
 .card img {
     width: 100px;
+}
+
+.greyBox {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
 }
