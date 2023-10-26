@@ -23,7 +23,7 @@ p {
     gap: 60px;
 }
 
-header, .underHeader, .whiteBox1, .innerGreyBox {
+header, .underHeader, .whiteBox1, .innerGreyBox, .whiteBox2 {
     display: flex;
     width: 950px;
 }
@@ -126,7 +126,7 @@ header {
     flex-direction: column;
     padding: 60px 0;
     gap: 15px;
-    width: 50%;
+    width: 52vw;
     align-items: flex-end;
 }
 
@@ -142,3 +142,30 @@ header {
     font-weight: bold;
 }
 
+.actionBox {
+    background-color: #3882F6;
+    width: 100%;
+    display: flex;
+    padding: 39px 8vw;
+    border-radius: 9px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actionTextBox {
+    color: #E5E7EB;
+}
+
+.actionTextBox b {
+    font-size: 19px;
+}
+
+.actionBox button {
+    background: #3882f6;
+    padding: 0px 25px;
+    height: 31px;
+    color: #e5e7eb;
+    border: solid #e5e7eb 2px;
+    border-radius: 7px;
+    font-weight: bold;
+}
